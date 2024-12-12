@@ -13,9 +13,9 @@
     ```bash
     ./dotnet build ./src
     ```
-* Run the dotnet application in live coding mode - to do this you must navigate into the /src directory    
+* Run the dotnet application 
     ```bash
-    cd src && ./dotnet watch run
+    dotnet run ./src
     ```
 
 * You will receive two prompts to enable Port Redirection, click 'yes' to both
