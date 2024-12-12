@@ -1,6 +1,7 @@
 {
     "recommendations": [
-      "muhammad-sammy.csharp",
-      "cnshenj.vscode-task-manager"
+        "ms-dotnettools.csharp",
+        "muhammad-sammy.csharp",
+        "cnshenj.vscode-task-manager"
     ]
 }
