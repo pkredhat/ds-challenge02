@@ -7,25 +7,27 @@
 ### Set Up + verification
 * Open a terminal. Run the below command to clean the solution so you're running a fresh compile
     ```bash
-    dotnet clean
+    dotnet clean ./src
     ```
 * Run the below command to check for compilation errors. You will see the code compiles fine
     ```bash
-    ./dotnet build
+    ./dotnet build ./src
     ```
-* Run the dotnet application in live coding mode
+* Run the dotnet application in live coding mode - to do this you must navigate into the /src directory    
     ```bash
-    ./dotnet run
+    cd src && ./dotnet watch run
     ```
-* On the prompt press [r] to resume testing. This will result in an error
-* Open the "Program.cs" file. You will observe the method "getCurrentDate" needs to be fixed.
+
+* You will receive two prompts to enable Port Redirection, click 'yes' to both
+* Open the "/Controllers/DsChallenge01Controller.cs" file. You will observe the method "getcurrentcate" needs to be fixed.
 * When you select all the code, right click and choose "Refactor"", the code does not format
 
 ### Success Criteria
 * Fix the formatting by Installing Required extensions. Code is formatted with the extensions
 * Restart your workspace (if required) for setting to be reflected
-* Method getCurrentDate code is completed. The code should show java intellisense in action
-* The live coding mode shows no errors and should indicate "All 1 test is passing"
+* Method getCurrentDate code is completed. The code should show dotnet intellisense in action
+* Write a test-case in /tests/Challenge01_Tests.cs to verify your changes work, run 'dotnet test' and it should indicate "All 1 test is passing"
+* The live coding mode should show no errors 
 
 ### Resources
 * Look for hidden clue(s) in source files that can help finishing the task sooner!
