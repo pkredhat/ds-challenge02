@@ -2,6 +2,7 @@
     "recommendations": [
         "ms-dotnettools.csharp",
         "jsw.csharpextensions",
+        "muhammad-sammy.csharp",
         "cnshenj.vscode-task-manager"
     ]
 }
