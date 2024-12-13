@@ -10,7 +10,7 @@ public class DateController : ControllerBase
     [HttpGet(Name = "GetCurrentDate")]
     public String getcurrentdate()
     {
-       return $"Current Date=[{DateTime.Now:yyyy-MM-dd}]";
+       return "TODO WRITE CODE TO FORMAT THIS";
     }
 }
 
