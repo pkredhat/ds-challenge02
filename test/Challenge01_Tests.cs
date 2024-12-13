@@ -25,15 +25,10 @@ public class Challenge01_Tests
             var controller = new DateController();
 
             // Act
+            //TODO WRITE a result object
            
             // Assert
-            
-                //     void testHelloEndpoint() {
-                //     given()
-                //   .when().get("/api/currentdate")
-                //   .then()
-                //      .statusCode(200)
-                //      .body(is("Current Date=["+LocalDate.now()+"]"));
+            //TODO WRITE TESTS
 
         }
 }
