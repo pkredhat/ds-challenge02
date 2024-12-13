@@ -11,7 +11,7 @@
     ```
 * Run the below command to check for compilation errors. You will see the code compiles fine
     ```bash
-    ./dotnet build ./src
+    dotnet build ./src
     ```
 * Run the dotnet application 
     ```bash
