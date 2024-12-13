@@ -17,7 +17,7 @@
     ```
 * Run the application in live coding mode
    ```bash
-    cd src && ./dotnet watch run
+    cd src && dotnet watch run
     ```
  
 * Open another terminal and invoke "curl localhost:5151/api/greet/bengaluru". You will see empty result
@@ -27,7 +27,7 @@
 * Method "greetUser" is updated to accept a string as a parameter and returns a concatenated string of "Hello " and the passed name
 * Invoking below service endpoint and it should return "Hello bengaluru"
     ```bash
-    curl localhost:5151/api/greet/bengaluru
+    curl localhost:5151/api/hello/DevSpaces
     ```
 * Write a test case in /test/Challenge02_Tests.cs and run with
     ```bash
