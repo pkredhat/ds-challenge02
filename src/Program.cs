@@ -11,6 +11,7 @@ public class Program
 
         builder.Services.AddControllers();
         // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
+        // Accessing the entry point: "/openapi/v1.json"
         builder.Services.AddOpenApi();
 
         var app = builder.Build();
