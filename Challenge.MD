@@ -41,7 +41,7 @@ You are working on your first dotnet application in Dev Spaces!
 
 ### Resources
 * Look for hidden clue(s) in source files that can help finish the task sooner!
-* Dotnet Reference: https://learn.microsoft.com/en-us/dotnet/api/system.datetime.now?view=net-9.0
+* Dotnet Time Reference: https://learn.microsoft.com/en-us/dotnet/api/system.datetime.now?view=net-9.0
 
 ### What did we learn?
 * Quick introduction to Dev Spaces, using the IDE and building and compiling code
