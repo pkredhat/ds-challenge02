@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace ds_challenge_01.Controllers;
+namespace ds_challenge02.Controllers;
 
 
 [ApiController]
@@ -8,7 +8,7 @@ namespace ds_challenge_01.Controllers;
 public class DateController : ControllerBase
 {
     [HttpGet(Name = "GetCurrentDate")]
-    public String getcurrentdate()
+    public String GetCurrentDate()
     {
        return "TODO WRITE CODE TO FORMAT THIS";
     }

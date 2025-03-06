@@ -19,7 +19,7 @@
     ```
 
 * You will receive two prompts to enable Port Redirection, click 'yes' to both
-* Open the "/Controllers/DsChallenge01Controller.cs" file. You will observe the method "getcurrentcate" needs to be fixed.
+* Open the "/Controllers/DsChallenge02Controller.cs" file. You will observe the method "getcurrentcate" needs to be fixed.
 * When you select all the code, right click and choose "Refactor"", the code does not format
 
 ### Success Criteria
