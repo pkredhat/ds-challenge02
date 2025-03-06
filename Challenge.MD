@@ -1,4 +1,4 @@
-## Challenge-02
+## Challenge 02 Introduction to Dev Spaces
 
 ### Scenario
 You are working on your first dotnet application in Dev Spaces! 
@@ -25,7 +25,6 @@ You are working on your first dotnet application in Dev Spaces!
     ```bash
     dotnet test ./test
     ```
-
 
 * You will receive two prompts to enable Port Redirection, click 'yes' to both
 * Open the "/Controllers/DsChallenge02Controller.cs" file. You will observe the method "GetCurrentDate" needs to be fixed
